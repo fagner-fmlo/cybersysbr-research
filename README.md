@@ -9,12 +9,13 @@
 ## Sobre
 
 **Fagner Mendes Oliveira** ([@cybersysbr](https://www.linkedin.com/in/fagnermendesoliveira/))  
-Blue Team Analyst | Threat Intelligence | SOC Operations
+Cybersecurity Analyst | Blue Team | Threat Intelligence
 
-Profissional com mais de 12 anos em TI e foco em segurança cibernética, especializado em:
+Profissional com mais de 12 anos em TI e foco em segurança cibernética, com atuação em:
+
 - Threat Hunting
-- Threat Intelligence & IOC Analysis
-- SOC Operations & Incident Response
+- Threat Intelligence
+- Incident Detection & Response
 
 ---
 
