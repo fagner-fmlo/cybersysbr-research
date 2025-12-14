@@ -2,22 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TLP:CLEAR](https://img.shields.io/badge/TLP-CLEAR-green.svg)](https://www.first.org/tlp/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-cybersysbr-blue?logo=linkedin)](https://www.linkedin.com/in/fagnermendesoliveira/)
+[![LinkedIn](https://www.linkedin.com/in/fagnermendesoliveira/)]
 
 > Repositório dedicado à pesquisa de segurança ofensiva e defensiva, threat intelligence, threat hunting.
-
-## Sobre
-
-**Fagner Mendes Oliveira** ([@cybersysbr](https://www.linkedin.com/in/fagnermendesoliveira/))  
-Cybersecurity Analyst | Blue Team | Threat Intelligence
-
-Profissional com mais de 12 anos em TI e foco em segurança cibernética, com atuação em:
-
-- Threat Hunting
-- Threat Intelligence
-- Incident Detection & Response
-
----
 
 ## Estrutura do Repositório
 
@@ -56,7 +43,7 @@ Profissional com mais de 12 anos em TI e foco em segurança cibernética, com at
 | **Malware Analysis** | VirusTotal, MalwareBazaar, Triage, FileScan.io |
 | **Threat Intelligence** | AlienVault OTX, IBM X-Force, Cisco Talos |
 | **Network Analysis** | Shodan, Censys, GreyNoise |
-| **SIEM/EDR** | Elastic Stack, QRadar, Trend Micro Vision One |
+
 
 ---
 
@@ -71,7 +58,6 @@ Os relatórios de Threat Intelligence são classificados conforme o **Traffic Li
 ## Contato
 
 - **LinkedIn:** [linkedin.com/in/fagnermendess](https://www.linkedin.com/in/fagnermendesoliveira/)
-- **GitHub:** [@cybersysbr](https://github.com/fagner-fmlo/)
 
 ---
 
