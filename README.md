@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TLP:CLEAR](https://img.shields.io/badge/TLP-CLEAR-green.svg)](https://www.first.org/tlp/)
-[![LinkedIn](https://www.linkedin.com/in/fagnermendesoliveira/)]
+
 
 > Repositório dedicado à pesquisa de segurança ofensiva e defensiva, threat intelligence, threat hunting.
 
