@@ -1,106 +1,109 @@
-# Lumma Stealer Behavioral Analysis
+# Análise Comportamental do Lumma Stealer
 
-## Overview
+## Visão Geral
 
-This directory contains a technical research reference for the article **"Análise Comportamental e Técnicas de Detecção do Lumma Stealer"**, an academic publication focused on the behavioral analysis of Lumma Stealer, its operational resilience, infection vectors, evasion techniques, indicators of compromise, and threat intelligence relevance.
+Este diretório contém uma referência técnica de pesquisa para o artigo **"Análise Comportamental e Técnicas de Detecção do Lumma Stealer"**, uma publicação acadêmica focada na análise comportamental do Lumma Stealer, sua resiliência operacional, vetores de infecção, técnicas de evasão, indicadores de comprometimento e relevância para Threat Intelligence.
 
-Lumma Stealer is analyzed as part of the malware-as-a-service (MaaS) ecosystem, with emphasis on its post-disruption behavior, infrastructure recovery, affiliate trust dynamics, and the impact of takedown and doxxing events on its operational continuity.
+O Lumma Stealer é analisado como parte do ecossistema de malware-as-a-service (MaaS), com ênfase em seu comportamento após ações de disrupção, recuperação de infraestrutura, dinâmica de confiança entre afiliados e impacto de eventos de takedown e doxxing na continuidade operacional.
 
-The full academic publication is available on Zenodo with DOI:
+A publicação acadêmica completa está disponível no Zenodo com DOI:
 
 https://doi.org/10.5281/zenodo.18939666
 
 ---
 
-## Research Scope
+## Escopo da Pesquisa
 
-This research focuses on:
+Esta pesquisa aborda:
 
-- Behavioral analysis of Lumma Stealer
-- Malware-as-a-service ecosystem dynamics
-- MITRE ATT&CK mapping
-- Infection vectors and delivery mechanisms
-- Evasion and persistence techniques
-- Indicators of Compromise (IoCs)
-- Post-takedown operational resilience
-- Impact of public exposure and doxxing on criminal infrastructure
-- Threat Intelligence and Threat Hunting applicability
-
----
-
-## Key Topics Covered
-
-| Area | Description |
-|------|-------------|
-| Malware Analysis | Behavioral characteristics, execution flow and technical capabilities |
-| Threat Intelligence | Campaign context, infrastructure analysis and adversary behavior |
-| MITRE ATT&CK | Mapping of observed tactics, techniques and procedures |
-| Detection Engineering | Detection opportunities based on behavior and indicators |
-| Threat Hunting | Hypothesis-driven hunting opportunities based on Lumma activity |
-| MaaS Ecosystem | Analysis of trust, affiliate model and operational continuity |
+- Análise comportamental do Lumma Stealer
+- Dinâmica do ecossistema malware-as-a-service
+- Mapeamento MITRE ATT&CK
+- Vetores de infecção e mecanismos de entrega
+- Técnicas de evasão e persistência
+- Indicadores de Comprometimento (IoCs)
+- Resiliência operacional pós-takedown
+- Impacto da exposição pública e doxxing na infraestrutura criminosa
+- Aplicabilidade em Threat Intelligence e Threat Hunting
 
 ---
 
-## MITRE ATT&CK Context
+## Principais Temas Abordados
 
-The research maps Lumma Stealer behavior to MITRE ATT&CK techniques related to:
-
-- Initial Access
-- Execution
-- Defense Evasion
-- Credential Access
-- Discovery
-- Collection
-- Command and Control
-- Exfiltration
-
-The objective is to support defensive teams in transforming threat intelligence into practical hunting hypotheses and detection opportunities.
+| Área | Descrição |
+|------|-----------|
+| Malware Analysis | Características comportamentais, fluxo de execução e capacidades técnicas |
+| Threat Intelligence | Contexto de campanha, análise de infraestrutura e comportamento adversário |
+| MITRE ATT&CK | Mapeamento de táticas, técnicas e procedimentos observados |
+| Detection Engineering | Oportunidades de detecção baseadas em comportamento e indicadores |
+| Threat Hunting | Hipóteses de hunting orientadas pela atividade do Lumma |
+| Ecossistema MaaS | Análise de confiança, modelo de afiliados e continuidade operacional |
 
 ---
 
-## Threat Intelligence Relevance
+## Contexto MITRE ATT&CK
 
-This research highlights that malware disruption should not be analyzed only from an infrastructure perspective. In malware-as-a-service ecosystems, trust, reputation, affiliate confidence and operator exposure can directly affect operational continuity.
+A pesquisa mapeia o comportamento do Lumma Stealer a técnicas do MITRE ATT&CK relacionadas a:
 
-The analysis argues that public exposure and doxxing may have a stronger operational impact than infrastructure takedown alone when the criminal business model depends on affiliate trust.
+- Acesso Inicial
+- Execução
+- Evasão de Defesa
+- Acesso a Credenciais
+- Descoberta
+- Coleta
+- Comando e Controle
+- Exfiltração
 
----
-
-## Detection and Hunting Value
-
-This research may support:
-
-- SOC alert enrichment
-- Threat Hunting hypothesis creation
-- Detection Engineering use cases
-- MITRE ATT&CK-based coverage analysis
-- CTI reporting
-- Malware behavior tracking
-- Contextual IoC analysis
-
-The main defensive value is not limited to static IoCs, but also includes behavioral patterns and adversary tradecraft that can be converted into detection logic.
+O objetivo é apoiar equipes defensivas na transformação de inteligência de ameaças em hipóteses práticas de hunting e oportunidades de detecção.
 
 ---
 
-## Publication
+## Relevância para Threat Intelligence
 
-**Title:** Análise Comportamental e Técnicas de Detecção do Lumma Stealer  
-**Type:** Academic / Technical Research  
-**Author:** Fagner Mendes Oliveira  
-**Repository:** Zenodo  
+Esta pesquisa destaca que a disrupção de malware não deve ser analisada apenas sob a perspectiva de infraestrutura. Em ecossistemas de malware-as-a-service, confiança, reputação, confiança dos afiliados e exposição dos operadores podem afetar diretamente a continuidade operacional.
+
+A análise argumenta que a exposição pública e o doxxing podem gerar impacto operacional mais forte do que ações de takedown de infraestrutura isoladamente, especialmente quando o modelo de negócio criminoso depende da confiança dos afiliados.
+
+---
+
+## Valor para Detecção e Hunting
+
+Esta pesquisa pode apoiar:
+
+- Enriquecimento de alertas em SOC
+- Criação de hipóteses de Threat Hunting
+- Casos de uso de Detection Engineering
+- Análise de cobertura baseada em MITRE ATT&CK
+- Relatórios de CTI
+- Rastreamento de comportamento de malware
+- Análise contextual de IoCs
+
+O principal valor defensivo não se limita a IoCs estáticos, mas também inclui padrões comportamentais e tradecraft adversário que podem ser convertidos em lógica de detecção.
+
+---
+
+## Publicação
+
+**Título:** Análise Comportamental e Técnicas de Detecção do Lumma Stealer  
+**Tipo:** Pesquisa Acadêmica / Técnica  
+**Autor:** Fagner Mendes Oliveira  
+**Repositório:** Zenodo  
 **DOI:** https://doi.org/10.5281/zenodo.18939666  
-**Focus:** Malware Analysis, Threat Intelligence, Threat Hunting, MITRE ATT&CK, Detection Engineering  
+**Foco:** Malware Analysis, Threat Intelligence, Threat Hunting, MITRE ATT&CK, Detection Engineering  
 
 ---
 
-## Disclaimer
+## Aviso Legal
 
-This material is intended for educational, defensive and research purposes only.
-The information provided should be used to support cyber defense, threat intelligence, detection engineering and incident response activities.
+Este material é destinado exclusivamente a fins educacionais, defensivos e de pesquisa.
 
-## Suggested Citation
+As informações fornecidas devem ser utilizadas para apoiar atividades de defesa cibernética, inteligência de ameaças, engenharia de detecção e resposta a incidentes.
 
-If this research is useful for your work, please cite the official Zenodo publication:
+---
+
+## Citação Sugerida
+
+Caso esta pesquisa seja útil para o seu trabalho, cite a publicação oficial no Zenodo:
 
 ```text
 Oliveira, F. M. Análise Comportamental e Técnicas de Detecção do Lumma Stealer.
