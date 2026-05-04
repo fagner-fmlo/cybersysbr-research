@@ -1,29 +1,47 @@
-# CyberSysBR Research
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![TLP:CLEAR](https://img.shields.io/badge/TLP-CLEAR-green.svg)](https://www.first.org/tlp/)
-
-
-> Repositório dedicado à pesquisa de segurança ofensiva e defensiva, threat intelligence, threat hunting.
-
-## Estrutura do Repositório
-
-```
-  cybersysbr-research
-├── 📂 threat-intelligence-reports/    # Relatórios de Threat Intelligence
-│   └── 📂 2025/
-│       └── 📂 CVE-2010-1871-Cryptomining-Campaign/
-├── 📂 tools/                          # Scripts e ferramentas
-└── 📂 resources/                      # Recursos e referências
-```
 
 ---
 
-## Threat Intelligence Reports
+## Threat Intelligence Reports & Research
 
-| Data | Título | CVE | TLP | Status |
-|------|--------|-----|-----|--------|
-| Dez/2025 | [Cryptomining Campaign - JBoss Seam 2](threat-intelligence-reports/2025/CVE-2010-1871-Cryptomining-Campaign/) | CVE-2010-1871 | CLEAR | Publicado |
+| Data | Título | Tipo | CVE | TLP | Status |
+|------|--------|------|-----|-----|--------|
+| Dez/2025 | [Cryptomining Campaign - JBoss Seam 2](threat-intelligence-reports/2025/CVE-2010-1871-Cryptomining-Campaign/) | Technical Report | CVE-2010-1871 | CLEAR | Publicado |
+| 2026 | [Lumma Stealer Behavioral Analysis](threat-intelligence-reports/2026/Lumma-Stealer-Behavioral-Analysis/) | Malware Research | N/A | CLEAR | Publicado |
+
+---
+
+## Publicações em Destaque
+
+### Lumma Stealer Behavioral Analysis
+
+Pesquisa técnica sobre o **Lumma Stealer**, malware-as-a-service associado a roubo de credenciais, evasão, uso de infraestrutura resiliente e reorganização operacional após ações de takedown.
+
+A análise aborda:
+
+- TTPs mapeadas ao MITRE ATT&CK
+- Vetores de infecção
+- Técnicas de evasão
+- Indicadores de comprometimento
+- Dinâmica operacional do ecossistema MaaS
+- Impactos de takedown e exposição pública de operadores
+
+Publicação acadêmica com DOI no Zenodo:
+
+**DOI:** https://doi.org/10.5281/zenodo.18939666
+
+---
+
+### CVE-2010-1871 - JBoss Seam 2 Cryptomining Campaign
+
+Relatório técnico sobre exploração ativa da vulnerabilidade **CVE-2010-1871**, relacionada ao JBoss Seam 2, observada em campanha de cryptomining.
+
+O relatório inclui:
+
+- Análise da vulnerabilidade explorada
+- Mapeamento MITRE ATT&CK
+- Indicadores de comprometimento
+- Classificação TLP
+- Estruturação de dados para compartilhamento técnico
 
 ---
 
@@ -44,20 +62,19 @@
 | **Threat Intelligence** | AlienVault OTX, IBM X-Force, Cisco Talos |
 | **Network Analysis** | Shodan, Censys, GreyNoise |
 
-
 ---
 
 ## Licença
 
 Este repositório está licenciado sob a [MIT License](LICENSE).
 
-Os relatórios de Threat Intelligence são classificados conforme o **Traffic Light Protocol (TLP)** indicado em cada documento.
+Os relatórios e pesquisas de Threat Intelligence são classificados conforme o **Traffic Light Protocol (TLP)** indicado em cada documento.
 
 ---
 
 ## Contato
 
-- **LinkedIn:** [linkedin.com/in/fagnermendess](https://www.linkedin.com/in/fagnermendesoliveira/)
+- **LinkedIn:** [linkedin.com/in/fagnermendesoliveira](https://www.linkedin.com/in/fagnermendesoliveira/)
 
 ---
 
